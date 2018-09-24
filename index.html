@@ -5,11 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 </head>
 <body>
 	<div id="fullpage">
-		<div class="section">Some section</div>
-		<div class="section">Some section</div>
+		<div class="section"><h1>Some section</h1></div>
+		<div class="section wow bounceInUp" data-wow-delay="5s"><h1>Some section 2</h1></div>
 		<div class="section">Some section</div>
 		<div class="section">Some section</div>
 	</div>
@@ -20,6 +22,7 @@
 			autoScrolling:true,
 			scrollHorizontally: true
 		});
+		new WOW().init();
 	</script>
 	<script src="scripts/index.js"></script>
 </body>
