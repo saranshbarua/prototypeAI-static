@@ -59,7 +59,7 @@ body {
 	justify-content: flex-start;
 	align-items: flex-start;
 	padding-left: 10%;
-	padding-top: 8%;
+	padding-top: 3%;
 /*	background-color: rgba(0,0,0,0.6);
 */}
 
@@ -76,6 +76,70 @@ body {
 .title {
 	font-size: 65px;
 	color: #2196f3;
+}
+
+.classic-navbar {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	font-size: 20px; 
+	margin-left: 7px; 
+	color: #607d8b;
+	letter-spacing: 5px; 
+	text-transform: uppercase;
+	position: absolute;
+	left: 10%;
+}
+
+.nav-items {
+	position: absolute;
+	right: 5%;
+	display: flex;
+	/*list-style-type: none;*/
+}
+
+.nav-items-li {
+	min-width: 50px;
+	list-style-type: none;
+	font-size: 17px;
+	margin: 0 10px 0 17px;
+	color: #607d8b;
+}
+
+.sub-heading {
+	color: #607d8b;
+	font-size: 30px;
+	margin-left: 3px;
+	line-height: 40px;
+}
+
+.buttons-container {
+	height: 60px;
+	min-width: 370px;
+	margin: 0px 0px 15px 3px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.ls-button {
+	height: 47px;
+	width: 160px;
+}
+
+.signup-button {
+	background-color: #2196f3;
+}
+
+.login-button {
+	margin-left: 25px;
 }
 
 /* WOW animations */
