@@ -47,9 +47,6 @@ body {
 
 #page1 {
 	height: 100%;
-/*	background-image: url(../images/background.jpg);
-*/	background-size: cover;
-	position: relative;
 }
 
 .pane {
@@ -180,6 +177,48 @@ body {
 	font-size: 20px;
 	margin-top: 10px;
 	color: #607d8b;
+}
+
+/* Page 2 styles */
+
+#page2 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 20px;
+}
+
+.c-con {
+	height: 60vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.ss {
+	width: 48%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.ss-content {
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 0px 0px 40px 40px;
+}
+
+.next-slide {
+	text-decoration: none;
+	outline: none;
+	color: #2196f3;
+	font-size: 20px;
 }
 
 /* WOW animations */
