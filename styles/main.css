@@ -221,6 +221,25 @@ body {
 	font-size: 20px;
 }
 
+/* Page 3 styles */
+
+#page3 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.c-con-all {
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
 /* WOW animations */
 
 .slide-up {
