@@ -223,7 +223,7 @@ body {
 
 /* Page 3 styles */
 
-#page3, #page4 {
+#page3, #page4, #page5 {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
