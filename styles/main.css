@@ -127,6 +127,7 @@ body {
 	padding-bottom: 4px;
 	border-radius: 3px;
 	transition: all 200ms ease-in-out;
+	text-decoration: none;
 }
 
 .ls-button:hover {
@@ -144,6 +145,7 @@ body {
 	background-color: white;
 	border: 1px solid #2196f3;
 	color: #2196f3;
+	outline: none;
 }
 
 .bottom-div {
