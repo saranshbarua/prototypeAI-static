@@ -204,7 +204,12 @@ body {
 	width: 48%;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
+}
+
+.ss > img {
+	box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.1);
+	border-radius: 7px;
 }
 
 .ss-content {
