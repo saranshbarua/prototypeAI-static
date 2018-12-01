@@ -1,2 +1,3 @@
-# skillznet-static
-Website for skillznet
+# prototypeAI
+
+A static website for prototypeAI. Nothing fancy!
